@@ -1,0 +1,22 @@
+.container {
+  color: red;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+}
+
+.button {
+  background: red;
+  color: black;
+  font-size: 2rem;
+  width: 10%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
