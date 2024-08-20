@@ -1,7 +1,6 @@
 .container {
   color: red;
   display: flex;
-  width: 90vw;
   justify-content: space-between;
   padding: 0 5rem;
 }
@@ -15,8 +14,12 @@
   background: red;
   color: black;
   font-size: 2rem;
-  width: 10%;
+  width: 20%;
   position: relative;
   left: 50%;
   transform: translate(-50%);
+}
+
+img {
+  width: 100%;
 }
